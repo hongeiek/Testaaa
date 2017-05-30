@@ -133,7 +133,7 @@
 			children = (
 				772FD3421EDD38030002E784 /* AppDelegate.swift */,
 				772FD3441EDD38030002E784 /* ViewController.swift */,
-				772FD3741EDD3B7F0002E784 /* asdasdasd.swift */,
+				772FD3761EDD3BD20002E784 /* New Group */,
 				772FD3731EDD3B6E0002E784 /* asdasd */,
 				772FD3461EDD38030002E784 /* Main.storyboard */,
 				772FD34C1EDD38030002E784 /* Assets.xcassets */,
@@ -167,6 +167,14 @@
 			children = (
 			);
 			name = asdasd;
+			sourceTree = "<group>";
+		};
+		772FD3761EDD3BD20002E784 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				772FD3741EDD3B7F0002E784 /* asdasdasd.swift */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		7C8DA37F35183F3ED44F464C /* Frameworks */ = {

@@ -12,10 +12,10 @@ target 'Testaaa' do
   pod 'RealmSwift'
   pod 'Alamofire', '~> 4.4'
   pod 'JTAppleCalendar', '= 6.0'
-  #pod 'KRProgressHUD'
-  #pod 'ObjectMapper'
-  #pod 'AlamofireObjectMapper'
-  #pod 'SwiftyJSON'
+  pod 'KRProgressHUD'
+  pod 'ObjectMapper'
+  pod 'AlamofireObjectMapper'
+  pod 'SwiftyJSON'
 
   target 'TestaaaTests' do
     inherit! :search_paths
