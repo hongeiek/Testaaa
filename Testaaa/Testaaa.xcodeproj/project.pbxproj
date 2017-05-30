@@ -17,6 +17,7 @@
 		772FD3501EDD38030002E784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772FD34E1EDD38030002E784 /* LaunchScreen.storyboard */; };
 		772FD35B1EDD38040002E784 /* TestaaaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FD35A1EDD38040002E784 /* TestaaaTests.swift */; };
 		772FD3661EDD38040002E784 /* TestaaaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FD3651EDD38040002E784 /* TestaaaUITests.swift */; };
+		772FD3751EDD3B7F0002E784 /* asdasdasd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FD3741EDD3B7F0002E784 /* asdasdasd.swift */; };
 		A14EA8DDBE71AD3BC36BA581 /* Pods_TestaaaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044DA3A135A9AE430F902785 /* Pods_TestaaaUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		772FD3611EDD38040002E784 /* TestaaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestaaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772FD3651EDD38040002E784 /* TestaaaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestaaaUITests.swift; sourceTree = "<group>"; };
 		772FD3671EDD38040002E784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		772FD3741EDD3B7F0002E784 /* asdasdasd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asdasdasd.swift; sourceTree = "<group>"; };
 		9CAD83977ACD70D57048DA73 /* Pods-Testaaa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testaaa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Testaaa/Pods-Testaaa.release.xcconfig"; sourceTree = "<group>"; };
 		EB47BCDDE684C1B2B30083D9 /* Pods_Testaaa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Testaaa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -131,6 +133,8 @@
 			children = (
 				772FD3421EDD38030002E784 /* AppDelegate.swift */,
 				772FD3441EDD38030002E784 /* ViewController.swift */,
+				772FD3741EDD3B7F0002E784 /* asdasdasd.swift */,
+				772FD3731EDD3B6E0002E784 /* asdasd */,
 				772FD3461EDD38030002E784 /* Main.storyboard */,
 				772FD34C1EDD38030002E784 /* Assets.xcassets */,
 				772FD34E1EDD38030002E784 /* LaunchScreen.storyboard */,
@@ -156,6 +160,13 @@
 				772FD3671EDD38040002E784 /* Info.plist */,
 			);
 			path = TestaaaUITests;
+			sourceTree = "<group>";
+		};
+		772FD3731EDD3B6E0002E784 /* asdasd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = asdasd;
 			sourceTree = "<group>";
 		};
 		7C8DA37F35183F3ED44F464C /* Frameworks */ = {
@@ -451,6 +462,7 @@
 			files = (
 				772FD3451EDD38030002E784 /* ViewController.swift in Sources */,
 				772FD34B1EDD38030002E784 /* Testaaa.xcdatamodeld in Sources */,
+				772FD3751EDD3B7F0002E784 /* asdasdasd.swift in Sources */,
 				772FD3431EDD38030002E784 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -704,6 +716,7 @@
 				772FD36C1EDD38040002E784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		772FD36D1EDD38040002E784 /* Build configuration list for PBXNativeTarget "TestaaaTests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +725,7 @@
 				772FD36F1EDD38040002E784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		772FD3701EDD38040002E784 /* Build configuration list for PBXNativeTarget "TestaaaUITests" */ = {
 			isa = XCConfigurationList;
@@ -720,6 +734,7 @@
 				772FD3721EDD38040002E784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
